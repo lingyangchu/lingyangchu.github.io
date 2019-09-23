@@ -1,0 +1,57 @@
+body {
+	padding-top: 0px;
+	font-size:14px;	
+	font-weight:400;
+	color: #606860;	
+	font-family: 'Oxygen', sans-serif;
+	text-align: justify
+}
+
+.homepage-container {
+  padding: 30px 15px;
+}
+
+.avatar{
+	float: right;	
+	width: 33%;
+	padding: 0px 50px;
+}
+
+.intro{
+	float: left;
+	width: 67%;
+	text-align: left;
+}
+
+a {
+	color: #00BFFF;
+}
+
+a:visited {
+	color: #00BFFF;
+}
+
+mark {
+	background: #FF9;
+}
+
+b {
+	font-weight: 700;
+}
+
+hr {
+	margin-top: 5px;
+}
+
+.top-buffer {
+	margin-top: 10px;
+}
+
+.bottom-buffer {
+	margin-bottom: 20px;
+}
+
+.number-font {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
