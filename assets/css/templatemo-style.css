@@ -289,7 +289,7 @@ html {
     right: 10%;
     left: 35%;
     position: relative;
-    min-height: 100vh;
+    min-height: 10vh;
     padding-bottom: 80px;
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
@@ -364,9 +364,9 @@ button:hover {
 /* Left & Right Post */
 
 .right-image-post {
-    margin-top: 60px;
-    padding-top: 60px;
-    border-top: 2px solid rgba(250, 250, 250, 0.1);
+    margin-top: 40px;
+    padding-top: 40px;
+    /*border-top: 2px solid rgba(250, 250, 250, 0.1);*/
 }
 
 .left-image img,
@@ -381,7 +381,7 @@ button:hover {
 
 .right-image-post p,
 .left-image-post p {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .right-image-post .white-button,
