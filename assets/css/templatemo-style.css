@@ -746,7 +746,10 @@ section.contact-me {
 }  
 
 @media screen and (max-width: 845px) {        
-    #menu-toggle,
+    #menu-toggle{
+        display: none;
+    }
+    
     #menu-close {
         display: inline-block;
     }    
