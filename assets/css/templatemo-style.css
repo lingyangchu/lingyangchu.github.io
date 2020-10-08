@@ -376,7 +376,7 @@ button:hover {
 
 .right-image-post h4,
 .left-image-post h4 {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .right-image-post p,
@@ -387,6 +387,7 @@ button:hover {
 .right-image-post .white-button,
 .left-image-post .white-button {
     margin-top: 30px;
+    border-left: 2px solid #a43f49;
 }
 
 
