@@ -324,7 +324,7 @@ html {
 
 .white-button a {
     display: inline-block;
-    padding: 12px 20px;
+    padding: 10px 10px;
     background-color: #fff;
     color: #a43f49;
     font-size: 13px;
@@ -477,8 +477,9 @@ section.my-work .section-heading {
 
 section.my-work .isotope-item {
     position: relative;
-    width: 94%;
-    margin: 3%;
+    width: 46%;
+    margin-left: 2%;
+    margin-right: 2%;
     /* border-bottom: 2px solid rgba(250,250,250,0.1);*/
     padding-bottom: 2px;
     margin-bottom: 2px;
@@ -815,8 +816,17 @@ section.contact-me {
     }
 
     .isotope-item {
-        width: 94%;
-        margin: 3%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    section.my-work .isotope-item {
+        position: relative;
+        width: 80%;
+        margin-left: 10%;
+        /* border-bottom: 2px solid rgba(250,250,250,0.1);*/
+        padding-bottom: 2px;
+        margin-bottom: 2px;
     }
 
     .left-image-post img {
