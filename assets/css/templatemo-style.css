@@ -296,7 +296,7 @@ html {
 
 .section-heading {
     text-align: center;
-    padding: 80px 45px;
+    padding: 40px 45px 20px 45px;
 }
 
 .section-heading h2 {
@@ -306,7 +306,7 @@ html {
 }
 
 .section-heading .line-dec {
-    width: 60px;
+    width: 100px;
     height: 3px;
     background-color: #a43f49;
     margin: 10px auto;
@@ -472,7 +472,16 @@ button:hover {
 
 section.my-work .section-heading {
     text-align: center;
-    padding: 80px 45px 50px 45px;
+    padding: 40px 45px 20px 45px;
+}
+
+section.my-work .isotope-item {
+    position: relative;
+    width: 94%;
+    margin: 3%;
+    /* border-bottom: 2px solid rgba(250,250,250,0.1);*/
+    padding-bottom: 2px;
+    margin-bottom: 2px;
 }
 
 .isotope-wrapper {
@@ -523,11 +532,11 @@ section.my-work .section-heading {
 
 .isotope-item {
     position: relative;
-    width: 98%;
-    margin: 1%;
+    width: 44%;
+    margin: 3%;
     /* border-bottom: 2px solid rgba(250,250,250,0.1);*/
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
 }
 
 .isotope-item img {
