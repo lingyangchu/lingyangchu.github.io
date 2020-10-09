@@ -112,8 +112,8 @@ html {
 }
 
 .main-nav li a {
-    height: 40px;
-    line-height: 40px;
+    height: 70px;
+    line-height: 70px;
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
@@ -796,6 +796,18 @@ section.contact-me {
         transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
         transition: transform 233ms cubic-bezier(0, 0, 0.21, 1);
         transition: transform 233ms cubic-bezier(0, 0, 0.21, 1), -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
+    }
+
+    .main-nav li a {
+        height: 40px;
+        line-height: 40px;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        width: 100%;
+        transition: all 0.5s;
+        border-top: 2px solid #fff;
     }
 
     .menu .image {
