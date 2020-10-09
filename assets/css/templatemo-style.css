@@ -470,6 +470,10 @@ button:hover {
 
 /* My Work */
 
+section.my-work .container {
+    width: 96%;
+}
+
 section.my-work .section-heading {
     text-align: center;
     padding: 40px 5px 25px 5px;
@@ -477,9 +481,7 @@ section.my-work .section-heading {
 
 section.my-work .isotope-item {
     position: relative;
-    width: 46%;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 44%;
     /* border-bottom: 2px solid rgba(250,250,250,0.1);*/
     padding-bottom: 2px;
     margin-bottom: 2px;
@@ -533,8 +535,10 @@ section.my-work .isotope-item {
 
 .isotope-item {
     position: relative;
-    width: 44%;
-    margin: 3%;
+    width: 46%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
     /* border-bottom: 2px solid rgba(250,250,250,0.1);*/
     padding-bottom: 2px;
     margin-bottom: 2px;
@@ -780,7 +784,7 @@ section.contact-me {
     }
 
     i {
-      margin-top: -15px;
+        margin-top: -15px;
     }
 
     .menu {        
@@ -826,19 +830,22 @@ section.contact-me {
         left: 3%;
     }
 
-    .isotope-item {
-        width: 80%;
-        margin-left: 10%;
-    }
-
     section.my-work .isotope-item {
         position: relative;
-        width: 80%;
-        margin-left: 10%;
-        /* border-bottom: 2px solid rgba(250,250,250,0.1);*/
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
         padding-bottom: 2px;
         margin-bottom: 2px;
     }
+
+/*
+    section.my-work .isotope-item {
+        position: relative;
+        width: 100%;
+        padding-bottom: 2px;
+        margin-bottom: 2px;
+    }*/
 
     .left-image-post img {
         margin-bottom: 30px;
