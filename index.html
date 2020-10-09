@@ -806,6 +806,8 @@ https://templatemo.com/tm-531-reflux
       //according to loftblog tut
       $(".main-menu li:first").addClass("active");
 
+      var menu = document.getElementById("menu");
+
       var showSection = function showSection(section, isAnimate) {
         var direction = section.replace(/#/, ""),
           reqSection = $(".section").filter(
@@ -824,7 +826,6 @@ https://templatemo.com/tm-531-reflux
           $("body, html").scrollTop(reqSectionPos);
         }
 
-        var menu = document.getElementById("menu");
         menu.classList.remove("open");
       };
 
@@ -852,8 +853,12 @@ https://templatemo.com/tm-531-reflux
         showSection($(this).attr("href"), true);
       });
 
+      $(window).click(function() {
+
+      })
 
       $(window).scroll(function() {
+        menu.classList.remove("open")
         checkSection();
       });
 
