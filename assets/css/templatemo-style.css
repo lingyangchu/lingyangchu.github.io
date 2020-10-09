@@ -758,7 +758,10 @@ section.contact-me {
     }
 }
 
-#menu-toggle,
+#menu-toggle {
+    display: none;
+}
+
 #menu-close {
     display: none;
 }  
@@ -766,11 +769,19 @@ section.contact-me {
 @media screen and (max-width: 845px) {        
     #menu-toggle{
         display: inline-block;
+        width: 25px;
+        height: 45px;
+        text-align: center;
     }
 
     #menu-close {
         display: inline-block;
-    }    
+        height: 45px;
+    }
+
+    i {
+      margin-top: -15px;
+    }
 
     .menu {        
         width: 200px;
