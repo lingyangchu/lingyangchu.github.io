@@ -24,6 +24,18 @@
     }
   });
 
+  $(window).on("click", function(e) {
+    if (menu.classList.contains("open")) {
+      if($(toggle).is(e.target)) {
+        menu.classList.add("open");
+        /* console.log('open toggle');*/
+      } else{
+        menu.classList.remove("open");
+        /*console.log('close toggle');*/
+      }
+    }
+  });
+
   $(".owl-carousel").owlCarousel({
     items: 4,
     lazyLoad: true,
