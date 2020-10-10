@@ -832,7 +832,7 @@ https://templatemo.com/tm-531-reflux
       var checkSection = function checkSection() {
         $(".section").each(function() {
           var $this = $(this),
-            topEdge = $this.offset().top - 80,
+            topEdge = $this.offset().top - 150,
             bottomEdge = topEdge + $this.height(),
             wScroll = $(window).scrollTop();
           if (topEdge < wScroll && bottomEdge > wScroll) {
@@ -846,7 +846,6 @@ https://templatemo.com/tm-531-reflux
           }
         });
       };
-
       
       $(".main-menu").on("click", "a", function(e) {
         e.preventDefault();
@@ -854,7 +853,6 @@ https://templatemo.com/tm-531-reflux
       });
 
       $(window).scroll(function() {
-        /*menu.classList.add("open")*/
         checkSection();
       });
 

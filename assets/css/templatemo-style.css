@@ -233,7 +233,7 @@ html {
   outline: none;
   overflow-x: hidden !important;
   overflow-y: auto !important;
-  padding: 0;
+  padding: 1px;
   position: fixed !important;
   top: calc(0px);  
   width: 20%;
@@ -805,7 +805,7 @@ section.contact-me {
         font-size: 16px;
         font-weight: 700;
         color: #fff;
-        width: 100%;
+        width: 101%;
         transition: all 0.5s;
         border-top: 2px solid #fff;
     }
