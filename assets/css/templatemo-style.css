@@ -233,7 +233,7 @@ html {
   outline: none;
   overflow-x: hidden !important;
   overflow-y: auto !important;
-  padding: 1px;
+  padding: 3px;
   position: fixed !important;
   top: calc(0px);  
   width: 20%;
