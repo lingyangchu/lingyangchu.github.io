@@ -26,12 +26,13 @@
 
   $(window).on("click", function(e) {
     if (menu.classList.contains("open")) {
-      if($(toggle).is(e.target)) {
-        menu.classList.add("open");
-        /* console.log('open toggle');*/
-      } else{
-        menu.classList.remove("open");
-        /*console.log('close toggle');*/
+      console.log('step 1')
+      if(!$(toggle).is(e.target)) {
+        console.log('step 2')
+        if(!$(menu).is(e.target)) {
+          menu.classList.remove("open");
+          console.log('step 3')
+        }
       }
     }
   });
