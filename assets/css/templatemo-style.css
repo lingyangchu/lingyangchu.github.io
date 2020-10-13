@@ -470,6 +470,25 @@ button:hover {
 }
 
 
+/* globe */
+section.my-globe {
+    color: #fff;
+    width: 55%;
+    position: relative;
+    right: 10%;
+    left: 35%;
+    min-height: 5vh;
+    max-height: 20px;
+    padding-bottom: 200px;
+    border-bottom: 0px
+}
+
+section.my-globe .container {
+    width: 96%;
+    max-height: 20px;
+}
+
+
 /* My Work */
 
 section.my-work .container {
@@ -774,6 +793,23 @@ section.contact-me {
 }  
 
 @media screen and (max-width: 845px) {        
+    /* globe */
+    section.my-globe {
+        color: #fff;
+        width: 80%;
+        position: relative;
+        right: 10%;
+        left: 10%;
+        min-height: 10vh;
+        max-height: 200px;
+        padding-bottom: 200px;
+        border-bottom: 0px
+    }
+
+    section.my-globe .container {
+        width: 96%;
+    }
+
     #menu-toggle{
         margin-top: 3px;
         margin-left: 2px;
