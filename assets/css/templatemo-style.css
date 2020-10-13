@@ -480,6 +480,7 @@ section.my-globe {
     min-height: 5vh;
     max-height: 20px;
     padding-bottom: 200px;
+    padding-top: 30px;
     border-bottom: 0px
 }
 
@@ -802,7 +803,8 @@ section.contact-me {
         left: 10%;
         min-height: 10vh;
         max-height: 200px;
-        padding-bottom: 200px;
+        padding-bottom: 230px;
+        padding-top: 20px;
         border-bottom: 0px
     }
 
