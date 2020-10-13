@@ -83,11 +83,11 @@ body.news-scroll {
 
 /* EMBEDDED NEWS PAGE LINK COLORS */
 
-.news-scroll a:link	{ color: #eeaa7b; text-decoration: none; }
+.news-scroll a:link	{ color: #f9b85d; text-decoration: none; }
 
-.news-scroll a:visited	{ color: #eeaa7b; text-decoration: none; }
+.news-scroll a:visited	{ color: #f9b85d; text-decoration: none; }
 
-.news-scroll a:active	{ color: #eeaa7b; text-decoration: none; }
+.news-scroll a:active	{ color: #f9b85d; text-decoration: none; }
 
 .news-scroll a:hover	{ color: #03f5b4; text-decoration: underline; }
 
