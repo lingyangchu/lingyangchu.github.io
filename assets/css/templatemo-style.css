@@ -812,6 +812,23 @@ section.contact-me {
         width: 96%;
     }
 
+    /* menu */
+    .menu .social-network {
+        margin-bottom: 5px;
+    }
+
+    .menu .social-network ul li a {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        background-color: transparent;
+        color: #fff;
+        font-size: 14px;
+        transition: all 0.5s;
+    }
+
     #menu-toggle{
         margin-top: 3px;
         margin-left: 2px;
@@ -843,7 +860,7 @@ section.contact-me {
         height: 40px;
         line-height: 40px;
         display: inline-block;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 700;
         color: #fff;
         width: 101%;
@@ -852,16 +869,23 @@ section.contact-me {
     }
 
     .menu .image {
-        margin-top: 40px;        
+        margin-top: 10px;        
     }
 
     .menu .image img {
-        width: 120px;
-        height: 120px;
+        width: 70px;
+        height: 70px;
     }
 
     .menu .author-content {
         margin: 20px 0px 20px 0px;
+    }
+
+    .menu .author-content h4{
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 0.25px;
     }
 
     .menu .container {
