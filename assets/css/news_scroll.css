@@ -24,7 +24,7 @@
 		{
 		width: 90%;
 		margin-left: 5%;
-		height: 80px; /* IF YOU EDIT HEIGHT EDIT THE SCROLLING SCRIPT HEIGHT!!!! */
+		height: 150px; /* IF YOU EDIT HEIGHT EDIT THE SCROLLING SCRIPT HEIGHT!!!! */
 		display: block;
 		padding-top: 10px;
 		overflow: hidden;
@@ -32,7 +32,7 @@
 
 .news_scroll-title 
 		{
-			font-size: 12px;
+			font-size: 24px;
 			font-weight: 700;
 			color: #fff;
 			letter-spacing: 0.25px;
@@ -65,14 +65,14 @@ body.news-scroll {
 
 .scroll-text-if	{
 		color: #fff;
-		font: normal 12px "Droid Sans", arial, sans-serif;
+		font: normal 17px "Droid Sans", arial, sans-serif;
 		text-align: justify;
 		/*padding: 1px 1px 0px 1px;*/
 		}
 
 .scroll-title-if {
 		color: #ffce00;
-		font: bold 15px "Droid Sans", arial, sans-serif;
+		font: bold 17px "Droid Sans", arial, sans-serif;
 		text-align: left;
 		border-bottom: #666666 0px solid;
 		}
